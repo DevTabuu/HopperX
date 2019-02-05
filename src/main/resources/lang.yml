@@ -1,0 +1,50 @@
+GUI_TITLE: "&2&lHopper"
+
+GUI_BLOCKBREAK_TITLE: "&e&lBlock Break"
+GUI_BLOCKBREAK_DESC:
+- "&rBreaks MOST blocks that are on top of the hopper"
+
+GUI_SUCTION_TITLE: "&e&lSuction"
+GUI_SUCTION_DESC:
+- "&rSucks all items in a {RADIUS} block radius."
+
+GUI_FILTER_TITLE: "&e&lItem Filter"
+GUI_FILTER_DESC:
+- "&rFilters the items based on the hopper its settings."
+
+GUI_TELEPORTATION_TITLE: "&e&lTeleportation"
+GUI_TELEPORTATION_DESC:
+- "&rTeleports player who walk on the hopper to the destination container."
+
+GUI_FARMING_TITLE: "&e&lFarming"
+GUI_FARMING_DESC:
+- "&rTurns the hopper in to an automatic farm machine."
+
+GUI_LINK_TITLE: "&e&lLink"
+GUI_LINK_DESC:
+- "&3&lLinked to: &r&6{CONTAINER_TYPE}"
+- "&3&lLocation:  &r&6{LOCATION}"
+- "&7&o(Right-click to unlink)"
+GUI_LINK_DESC_NOLINK:
+- "&7Not linked."
+
+FILTER_GUI_TITLE: "&e&lItem Filter"
+
+FILTER_GUI_VOID: "&7&lVoid"
+FILTER_GUI_VOID_DESC:
+- "&rMaterials on this list will be voided."
+
+FILTER_GUI_WHITELIST: "&f&lWhitelist"
+FILTER_GUI_WHITELIST_DESC:
+- "&rOnly items on this list will be transported."
+
+FILTER_GUI_BACK: "&c&lBack"
+
+CHUNKLIMIT_EXCEEDED: "&c&lCannot place this hopper since this would exceed the hopper chunk limit of {CHUNK_LIMIT}"
+
+LINK_START: "&2&lRight-click the container you want to link."
+LINK_TIMEOUT: "&c&lLinking process timed-out."
+LINK_SUCCESSFUL: "&2&lSuccessfully linked hopper."
+
+LINK_DISTANCE_EXCEEDED: "&c&lCannot link containers more than {MAX_DISTANCE} blocks apart."
+LINK_DISTANCE_BENEATH: "&c&lCannot link containers less than {MIN_DISTANCE} blocks apart."

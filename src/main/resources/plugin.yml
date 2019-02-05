@@ -1,0 +1,9 @@
+name: HopperX
+version: 2.2.4 BETA
+main: nl.tabuu.hopperx.HopperX
+description: Makes hoppers more interesting.
+author: Tabuu
+authors: [Tabuu]
+website: https://www.tabuu.nl
+depend: [TabuuCore]
+api-version: 1.13

@@ -1,0 +1,50 @@
+DefaultValues:
+  # DESCRIPTION:  The maximum distance between a hopper and a container to be able to link.
+  # FORMAT:       Integer
+  MAX_LINK_DISTANCE: 40
+
+  # DESCRIPTION:  The minimum distance between a hopper and a container to be able to link.
+  # FORMAT:       Integer
+  MIN_LINK_DISTANCE: 2
+
+  # DESCRIPTION:  The desired amount of items to be moved per hopper per tick.
+  # FORMAT:       Integer
+  SPEED: 4
+
+  # DESCRIPTION:  The range in which dropped items can be picked up by the hopper.
+  # FORMAT:       Double
+  SUCTION_RANGE: 5.0
+
+# DESCRIPTION:  Set to '0s' to disable auto saving.
+# FORMAT:       TabuuCore time format.
+# NOTE:         Auto saving can result in a CPU and/or RAM usage spike.
+AutoSaveInterval: "5m"
+
+# DESCRIPTION:  The amount of hoppers handled every tick.
+# FORMAT:       Integer
+# NOTE:         The amount of moved items will be compensated if the hopper task is delayed.
+#               A higher number results in a smoother experience but a higher amount of CPU usage.
+HopperTasksPerTick: 200
+
+# DESCRIPTION:  The time a player has to link the hopper.
+# FORMAT:       TabuuCore time format.
+LinkTimeout: "30s"
+
+# DESCRIPTION:  The maximum hoppers that can be placed in a chunk.
+# FORMAT:       Integer
+MaxHoppersPerChunk: 40
+
+# DESCRIPTION:  Blocks that cannot be broken by hoppers.
+# FORMAT:       Material
+UnbreakableBlocks:
+  - 'BEDROCK'
+  - 'CHEST'
+  - 'ENDER_CHEST'
+  - 'HOPPER'
+  - 'TRAPPED_CHEST'
+  - 'FURNACE'
+  - 'LAVA'
+  - 'WATER'
+  - 'END_ROD'
+  - 'SPAWNER'
+  - 'DISPENSER'
